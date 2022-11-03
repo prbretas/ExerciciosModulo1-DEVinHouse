@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="styles.css">
+    <title>Projeto - Banco Bretas</title>
+</head>
+
+<body>
+
+    <header>Banco Bretas</header>
+
+    <main>
+        <div class="container1">
+
+            <div class="container-valor">
+                <label for="valor">Valor: R$ </label>
+                <input type="number" name="valor" id="valor" step=".01" placeholder="0.00" size="10" />
+            </div>
+            <div class="container-botoes">
+                <button onclick="efetuarOperacao('sacar')">SACAR</button>
+                <button onclick="efetuarOperacao('depositar')">DEPOSITAR</button>
+            </div>
+            <div class="container-botoes">
+                <button onclick="efetuarOperacao('saldo')">CONSULTAR SALDO</button>
+                <button onclick="efetuarOperacao('extrato')">CONSULTAR EXTRATO</button>
+            </div>
+
+
+              
+  
+
+        </div>
+
+        <h3>Saldo e Extrato</h3>
+        <div class="container2" id="saida">
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

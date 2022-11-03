@@ -1,0 +1,99 @@
+body {
+    background-color: #fcfcfc;
+
+    /* reset */
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header {
+    background-color: #720000;
+    color: #ffffff;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.container1 {
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.473));
+    width: 500px;
+    height: 320px;
+    margin: 50px 10px 20px;
+    padding: 20px;
+  }
+  
+  .container2 {
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.473));
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+.container-valor {
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.container-valor input {
+    font-size: 1.3rem;
+}
+
+.container-botoes {
+    text-align: center;
+}
+
+.container-botoes button {
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+    font-size: 1rem;
+    background-color: #b99292;
+    margin: 15px;
+}
+
+.container-botoes button:hover {
+    font-weight: bold;
+    color: white;
+    background-color: #a38080;
+}
+
+#saida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+/********* REMOVER ARROWS DO  INPUT TYPE=NUMBER ************/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  /* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*********************************************************/

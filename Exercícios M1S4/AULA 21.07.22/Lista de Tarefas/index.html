@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="styles.css">
+    <title>Projeto - Lista de Tarefas</title>
+</head>
+
+<body>
+
+    <header>Lista de Tarefas</header>
+    
+
+    <section class="entrada-item">
+        <input type="text" size="40" placeholder="Digite aqui a tarefa...">
+        <button onclick="adicionarNovaTarefa()">Adicionar</button>
+    </section>
+
+    <section class="quantitativo">
+        <div>Quantidade de tarefas concluídas: <span id="qtdConcluidos"></span></div>
+        <div>Quantidade de tarefas pendentes: <span id="qtdPendentes"></span></div>
+    </section>
+
+    <section class="lista">
+        <ul>
+
+        </ul>
+    </section>
+
+    <section class="acoes">
+        <button onclick="limparTarefas()">Limpar</button>
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
