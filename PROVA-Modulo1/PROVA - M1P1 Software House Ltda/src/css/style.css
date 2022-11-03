@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  font-family: "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: rgb(43, 43, 43);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+h2 {
+  color: rgb(222, 226, 0);
+  font-size: 1.4rem;
+  margin: 20px 0;
+}
+
+footer {
+  position: bottom;
+  background-color: rgb(43, 43, 43);
+  width: 100%;
+  color: white;
+  padding: 20px;
+}
+
+.pfooter {
+  margin-bottom: 10px;
+}
+
+/***************************************************/
+
+.Section {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/***********Formulario**************************/
+.div-Formulario {
+  background-color: rgb(86, 1, 143);
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.473));
+  min-width: 400px;
+  max-width: 35vw;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  margin: 20px;
+  
+}
+
+#HeaderForm {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.descricao {
+  height: 100px;
+}
+
+form {
+  text-align: left;
+}
+
+input,
+select {
+  border-radius: 8px;
+  width: 300px;
+  padding: 5px;
+}
+
+textarea {
+  border-radius: 8px;
+  padding: 5px;
+  width: 300px;
+  height: 200px;
+  resize: none;
+}
+
+#div-btns-form{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+#save-btn,
+#clear-form-btn {
+  margin: 20px 0;
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+}
+#save-btn {
+  background-color: rgb(24, 206, 24);
+  margin-right: 10px;
+}
+
+#clear-form-btn {
+  background-color: rgb(255, 51, 0);
+}
+
+/***********MAIN SECTION****************************/
+
+main {
+  background-color: white;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.473));
+  padding: 20px;
+ margin: 20px 10px;
+ width: 800px;
+}
+
+.SectionCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 100px;
+  height: 80px;
+  background-color: red;
+  border: 1px solid rgb(255, 251, 0);
+  margin: 5px;
+  color: white;
+  filter: drop-shadow(0 0 3px black);
+  border-radius: 5px;
+}
+
+#SearchDiv {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#search {
+  width: 300px;
+}
+#search-btn, #clear-search-btn {
+width: 100px;
+
+}
+
+.divQuickTips {
+  display: flex;
+ /*  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr); */
+flex-wrap: wrap;
+
+  margin-top: 10px;
+}
+
+.Card-QuickTip {
+  background-color: #e6e6e6;
+  margin: 20px 10px 0;
+  height: 225px;
+  width: 225px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.623));
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-evenly;
+  padding: 15px;
+  font-size: 0.8rem;
+}
+
+.Card-QuickTip:hover {
+  background-color: rgb(134, 134, 134);
+}
+
+#div-card-btn {
+  text-align: right;
+}
+
+
+
+ul li{
+  margin: 32px;
+
+}

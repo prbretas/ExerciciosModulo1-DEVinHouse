@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+header {
+  background-color: rgb(37, 31, 73);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+h2 {
+  color: rgb(222, 226, 0);
+  font-size: 1.4rem;
+  margin: 20px 0;
+}
+
+
+#Header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+}
+
+footer {
+  position: bottom;
+ 
+  width: 100%;
+  color: white;
+  padding: 20px;
+}
+
+.pfooter {
+  margin-bottom: 10px;
+}
+
+/***************************************************/
+
+.Section {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  background-color: rgb(206, 208, 245);
+}
+/************** CRIAR CARTAO*************/
+#left-column {
+  min-width: 200px;
+  padding: 50px 20px;
+  background-color: rgb(0, 3, 51);
+  color: white;
+}
+
+/* FORMULARIO */
+form {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+  color: white;
+}
+
+form input,
+form select,
+form textarea,
+form button {
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+form > textarea {
+  height: 64px;
+  resize: none;
+
+}
+
+#form-btn-box {
+  display: flex;
+  gap: 4px;
+}
+
+#form-btn-box > button{
+  flex-grow: 1;
+}
+
+/************** RIGHT COLUMN -  CARTOES**********/
+
+#right-column {
+  min-width: 300px;
+  padding: 15px 20px;
+  flex-grow: 1;
+  text-align: center;
+}
+.SectionCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.cartao {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100px;
+  height: 80px;
+  margin: 5px;
+  background-color: rgb(162, 164, 238);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 3px black;
+  border-radius: 5px;
+  font-family: Helvetica, sans-serif;
+  flex-grow: 1;
+}
+
+.cartao p {
+  filter: none;
+  margin: 0;
+  padding: 0;
+}
+
+.n-category {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#n-total {
+  color: rgb(255, 0, 0);
+}
+
+#n-frontend {
+  color: rgb(255, 187, 0);
+}
+
+#n-backend {
+  color: rgb(9, 255, 0);
+}
+
+#n-fullstack {
+  color: rgb(238, 255, 0);
+}
+
+#n-softskills {
+  color: rgb(0, 4, 255);
+}
+
+/****************   SEARCH AREA ***************/
+
+#search-box {
+  display: flex;
+  gap: 5px;
+}
+
+#input-search {
+  border-radius: 10px;
+  flex-grow: 1;
+ 
+}
+
+#btn-search, #btn-clear-search {
+width: 100px;
+}
+
+/************* Cards ************************/
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  margin-bottom: 16px;
+  margin-top: 30px;
+  padding: 8px;
+}
+
+ul li h3 {
+  margin-top: 0;
+}
+
+.Card-QuickTip {
+  background-color: #e6e6e6;
+  margin: 20px 10px 0;
+  height: 225px;
+  width: 225px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.623));
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-evenly;
+  padding: 15px;
+  font-size: 0.8rem;
+}
+
+.Card-QuickTip:hover {
+  background-color: rgb(134, 134, 134);
+}
+
+#div-card-btn {
+  text-align: right;
+}

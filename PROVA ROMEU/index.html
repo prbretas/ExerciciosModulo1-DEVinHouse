@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" type="module"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="left-column">
+
+            <h1>Cards</h1>
+            <h2>Formulario</h2>
+
+            <form id="form-recipe">
+                <label for="in-title">Titulo</label>
+                <input id="in-title" name="title" type="text" placeholder="informe um titulo" min="4" max="32">
+
+
+                <label for="in-category">categoria</label>
+                <select id="in-category" name="category" required>
+                    <option value="Salgados">Salgados</option>
+                    <option value="Doces">Doces</option>
+                    <select>
+
+
+
+                        <label for="in-description">Descrição</label>
+                        <textarea id="in-description" name="description" min-length="8" max-length="128"
+                            placeholder="Informe a descrição" required></textarea>
+
+
+                        <label for="in-link">Link</label>
+                        <input type="text" name="link" id="in-link" placeholder="informe um link" minlength="18"
+                            maxlength="128">
+
+                        <div id="form-btn-box">
+                            <button type="reset">Limpar</button>
+
+                            <button type="submit">Salvar</button>
+                        </div>
+            </form>
+        </div>
+
+
+
+
+
+
+        <div id="right-column">
+            <h2>Lista de receitas</h2>
+            <div id="categories">
+                <div>
+                    <p> Doces </p>
+                    <p id="n-doces" class="n-category">0</p>
+                </div>
+
+                <div>
+                    <p>Salgados</p>
+                    <p id="n-salgados" class="n-category">0</p>
+                </div>
+            </div>
+
+
+
+            <div id="search-box">
+                <input type="text" id="in-search" name="search" placeholder="digite para pesquisar">
+                <button id="btn-search">Pesquisar</button>
+                <button id="btn-clear-search">Limpar</button>
+            </div>
+
+            <ul id="recipes"></ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+#container {
+  display: flex;
+  gap: 10px;
+}
+
+#left-column {
+  min-width: 200px;
+}
+
+#right-column {
+  min-width: 200px;
+  flex-grow: 1;
+}
+
+form {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 4px;
+}
+
+form input,
+form select,
+form textarea,
+form button {
+  margin-bottom: 12px;
+}
+
+textarea {
+  height: 64px;
+  resize: none;
+}
+
+#form-btn-box {
+  display: flex;
+  gap: 4px;
+}
+
+#form-btn-box button {
+  flex-grow: 1;
+}
+
+#categories {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+#categories > div {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+#categories > div > p {
+  margin: 0;
+  text-align: center;
+}
+
+.n-category {
+  margin-top: 5px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+
+
+#search-box{
+display: flex;
+gap: 4px;
+}
+
+#in-search{
+
+flex-grow: 1;
+
+}
+
+
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+
+ul li{
+
+border: 1px solid red;
+border-radius: 5px;
+margin-bottom: 16px;
+padding: 10px;
+}
+
+ul li h3{
+    margin-top: 0;
+}
