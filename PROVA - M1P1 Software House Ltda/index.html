@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M1P1 Software House Ltda</title>
+    <script src="main.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div id="HeaderForm">
+            <div>
+                <img src="https://img.icons8.com/arcade/64/000000/experimental-book-arcade.png" />
+            </div>
+            <div>
+                <h1>Conhecimentos DEV</h1>
+                <p>Aprender, Codar e Salvar</p>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="Section">
+        <aside>
+            <div class="Formulario">
+
+                <h2>Crie seu card aqui</h2>
+
+                <form action="">
+                    <label for="titulo">Titulo</label>
+                    <br />
+                    <input type="text" min-length="8" maxlength="64" id="titulo" name="titulo"
+                        placeholder="Digite o título do card" required />
+
+                    <br />
+                    <br />
+
+                    <label for="liguagem">Linguagem</label>
+                    <br />
+                    <input type="text" min-length="8" maxlength="32" id="linguagem" name="linguagem"
+                        placeholder="Digite uma linguagem ou Skill" required />
+
+                    <br />
+                    <br />
+
+                    <label for="categoria">Categoria</label>
+                    <br />
+                    <select name="categoria" id="categoria" required>
+                        <option value="Selecione">Selecione uma categoria</option>
+                        <option value="Front-end">Front-end</option>
+                        <option value="Back-end">Back-end</option>
+                        <option value="FullStack">FullStack</option>
+                        <option value="Comportamental/Soft">Soft Skill</option>
+                    </select>
+
+                    <br />
+                    <br />
+
+                    <label for="descricao">Descrição Completa</label>
+                    <br />
+                    <textarea name="descricao" id="descricao" cols="32" rows="5"
+                        placeholder="Escreva aqui o detalhamento da sua dica..." required></textarea>
+
+                    <br />
+                    <br />
+                    <label for="url-video">Vídeo do YouTube</label>
+                    <br />
+                    <input type="url" id="url-video" name="url-video" placeholder="https://suaurl.com" />
+
+                    <br />
+                    <button id="save-btn">Salvar</button>
+                    <button id="clear-form-btn">Limpar</button>
+                </form>
+            </div>
+        </aside>
+
+        <main>
+            <div class="SectionCards">
+                <div class="card">
+                    <h3>card1 - Total de cards</h3>
+                </div>
+                <div class="card">
+                    <h3>card2 - Front-end</h3>
+                </div>
+                <div class="card">
+                    <h3>card3 - Back-end</h3>
+                </div>
+                <div class="card">
+                    <h3>card4 - Full-Stack</h3>
+                </div>
+                <div class="card">
+                    <h3>card5 - Soft-Skills</h3>
+                </div>
+            </div>
+
+            <div id="SearchDiv">
+                <input type="text" id="search" placeholder="Digite um título para buscar" />
+                <button id="search-btn">🔎</button>
+                <button id="clear-search-btn">❌</button>
+            </div>
+
+            <h3>Quick Tips</h3>
+            <div class="divQuickTips">
+
+                <!----------- EXEMPLO DE CARD ---------------------->
+                <div class="Card-QuickTip">
+                    <h3>Titulo Card</h3>
+                    <p> <span style="font-weight: bold ;">Linguagem / Skill: </span> CSS</p>
+
+                    <p> <span style="font-weight: bold ;">Categoria: </span> Front-end</p>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem vel nemo quas maxime
+                        distinctio. Nobis neque exercitationem quam esse fuga, reprehenderit aliquam asperiores. Et iste
+                        ipsum dolorem inventore tenetur ab.</p>
+                    <div id="div-card-btn">
+                        <button id="card-delete">🗑️</button>
+                        <button id="card-edit">📝</button>
+                        <button id="card-video">📹</button>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </main>
+    </section>
+
+    <footer>
+        <p class="pfooter">M1P1 Software House Ltda</p>
+        <p class="pfooter">Curso Full Stack - DEVinHouse - EDP | SENAI - SC</p>
+        <p class="pfooter">Aluno: Philippe Rocca Bretas</p>
+    </footer>
+</body>
+
+</html>
