@@ -1,0 +1,106 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+
+  background-color: grey;
+  font-family: "Helvetica Neue", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header{
+  background-color: rgb(43, 43, 43);
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+h1 {
+  color: white;
+}
+
+
+
+.container1{
+background-color: white;
+border-radius: 20px;
+filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.473));
+width: 400px;
+height: 420px;
+margin-top: 50px;
+padding: 20px;
+}
+
+
+.container2{
+  background-color: white;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.473));
+  width: 400px;
+  height: auto;
+  margin-top: 50px;
+  padding: 20px;
+  }
+  
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: 1.4rem;
+  margin-top: 10px;
+
+}
+
+hr{
+  height: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+input{
+  margin: 10px auto;
+  font-size: 1.3rem;
+  text-align: center;
+}
+button{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 10px auto;
+  
+}
+
+/********* REMOVER ARROWS DO  INPUT TYPE=NUMBER ************/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  /* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/*********************************************************/  
+
+
+
+footer{
+    margin-top: 50px;
+    background-color: black;
+    width: 100vw;
+    color: white;
+    padding: 20px;
+  }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M1S03 &middot; Exercício 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>M1S03 - Exercício 4</h1>
+    </header>
+<!----------------SECTION 1 ------------->
+    <section id="ProgAritmetica">
+        <div class="container1">
+            <h2>Progressões</h2>
+
+            <div class="form">
+                <p style="font-size: 0.7rem; margin-bottom: 10px;">PA - Progressão Aritmética | PG - Progressão Geométrica</p>
+
+                <label for="ValorInicial">Selecione o Valor Inicial</label>
+                <input type="number" id="ValorInicial" placeholder="Valor Inicial" required>
+
+                <label for="RaizPA">Selecione a Raiz</label>
+                <input type="number" id="Raiz" placeholder="Raiz" required>
+
+                <label for="termo">Mostrar até o termo:</label>
+                <input id="termo" type="number" placeholder="Até qual termo?" required> <br />
+
+                <button onclick="executarPA()">Calcular PA</button>
+
+                <button onclick="executarPG()">Calcular PG</button>
+            </div>
+
+        </div>
+
+        <div class="container2">
+            <h2>Resultado</h2>
+            <div id="Resultado">
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <footer>
+        <h3>Aluno: Philippe Rocca Bretas</h3>
+        <p>Curso Full Stack - DEVinHouse - EDP House</p>
+        <p>SENAI - SC</p>
+
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
