@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(231, 237, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+fieldset {background-color: rgb(255, 255, 255);
+    min-width: 400px;
+    border-radius: 10px;
+ 
+  }
+
+
+h1, h2{
+    text-align: center;
+    font-size: 2rem;
+ 
+
+}
+
+h2{
+    color: rgb(0, 0, 114);
+
+}
+
+.DivFormulario{
+  background-color: rgb(188, 225, 255); 
+  border-radius: 5px;
+  padding: 10px 0;   
+  text-align: center;
+  min-width: 400px;
+}
+
+input{
+    border-radius: 5px;
+    margin: 5px auto;
+
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 4 - Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Exercício 4 - Formulário de Cadastro</h1>
+
+
+
+
+    <h2>Formulário de Cadastro</h2>
+    <form action="" class="Formulario">
+      <fieldset>
+        <legend>Preencha os dados</legend>
+
+        <div class="DivFormulario">
+          <label for="Name">Nome Completo:</label>
+          <input
+            type="text"
+            name="Name"
+            id="Name"
+            maxlength="40"
+            minlength="3"
+            required
+          />
+
+          <br />
+          <label for="Birthdate">Data de Nascimento:</label>
+          <input type="date" name="Birthdate" id="Birthdate" required />
+
+          <br />
+          <label for="CPF">Insira seu CPF:</label>
+          <input
+            type="text"
+            name="CPF"
+            id="CPF"
+            minlength="11"
+            required
+            maxlength="14"
+            min="11"
+          />
+
+          <br />
+          <label for="Municipio">Insira seu município</label>
+          <select name="Município" id="Município" required>
+            <option value="">Selecione uma opção</option>
+            <option value="Joinville-SC">Joinville-SC</option>
+            <option value="Jaraguá do Sul-SC">Jaraguá do Sul-SC</option>
+            <option value="São Francisco do Sul-SC">
+              São Francisco do Sul-SC
+            </option>
+            <option value="Balneário Camboriú-SC">Balneário Camboriú-SC</option>
+            <option value="Blumenau-SC">Blumenau-SC</option>
+            <option value="Florianópolis-SC">Florianópolis-SC</option>
+          </select>
+          <br>
+        <input type="submit" value="Enviar" />
+        </div>
+
+      </fieldset>
+    </form>
+  </body>
+</html>
