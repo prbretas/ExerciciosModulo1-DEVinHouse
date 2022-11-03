@@ -1,0 +1,15 @@
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\bin\Debug\net6.0\consoleapp.exe
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\bin\Debug\net6.0\consoleapp.deps.json
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\bin\Debug\net6.0\consoleapp.runtimeconfig.json
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\bin\Debug\net6.0\consoleapp.dll
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\bin\Debug\net6.0\consoleapp.pdb
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\obj\Debug\net6.0\consoleapp.csproj.AssemblyReference.cache
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\obj\Debug\net6.0\consoleapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\obj\Debug\net6.0\consoleapp.AssemblyInfoInputs.cache
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\obj\Debug\net6.0\consoleapp.AssemblyInfo.cs
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\obj\Debug\net6.0\consoleapp.csproj.CoreCompileInputs.cache
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\obj\Debug\net6.0\consoleapp.dll
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\obj\Debug\net6.0\refint\consoleapp.dll
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\obj\Debug\net6.0\consoleapp.pdb
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\obj\Debug\net6.0\consoleapp.genruntimeconfig.cache
+C:\Users\at30r\Downloads\EDP DOTNET\consoleapp\obj\Debug\net6.0\ref\consoleapp.dll
